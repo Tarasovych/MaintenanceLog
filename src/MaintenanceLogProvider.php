@@ -15,10 +15,10 @@ class MaintenanceLogProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->publishes([
-            __DIR__.'/Commands/DownLog.php' => app_path('Console/Commands/DownLog.php'),
-            __DIR__.'/Commands/UpLog.php' => app_path('Console/Commands/UpLog.php'),
-        ]);
+//        $this->publishes([
+//            __DIR__.'/Commands/DownLog.php' => app_path('Console/Commands/DownLog.php'),
+//            __DIR__.'/Commands/UpLog.php' => app_path('Console/Commands/UpLog.php'),
+//        ]);
 
         if ($this->app->runningInConsole()) {
             $this->commands([
