@@ -1,0 +1,17 @@
+{
+    "name": "tarasovych/maintenancelog",
+    "description": "Log time, when your Laravel application goes down or up",
+    "keywords": ["laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tarasovych",
+            "email": "tarasovych.ua@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "laravel/laravel": "5.5.*"
+    },
+    "minimum-stability": "dev"
+}
